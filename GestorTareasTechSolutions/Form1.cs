@@ -187,7 +187,7 @@ namespace GestorTareasTechSolutions
         private void btnGitHub_Click(object sender, EventArgs e)
         {
             // ¡¡CAMBIA ESTA URL POR LA DE TU REPOSITORIO!!
-            string url = "https://github.com/TuUsuario/TuRepositorio";
+            string url = "https://github.com/DIEGOJGS/GestorTareasTechSolution";
 
             try
             {
@@ -199,5 +199,7 @@ namespace GestorTareasTechSolutions
                 MessageBox.Show($"No se pudo abrir el enlace. Error: {ex.Message}", "Error al Abrir", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+
     }
 }
