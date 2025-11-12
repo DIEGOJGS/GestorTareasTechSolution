@@ -1,0 +1,7 @@
+# Archivos del IDE
+.vs/
+*.sln.docstate
+
+# Archivos de compilación
+bin/
+obj/
