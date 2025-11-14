@@ -29,8 +29,9 @@ public class Tarea
     // Esto es lo que se verá en la lista principal
     public override string ToString()
     {
+        string fechaCorta = FechaRegistro.ToShortDateString();
         // Formato: [ID] - Nombre (Prioridad)
-        return $"[{Id}] - {Nombre} ({Prioridad})";
+        return $"[{Id}] - {fechaCorta} - {Nombre} ({Prioridad})";
     }
 
     // Método para mostrar el detalle completo en un mensaje
